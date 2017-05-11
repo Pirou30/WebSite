@@ -1,0 +1,130 @@
+body{
+	margin:0;
+	background-color: #f1f6f9; 
+}
+
+
+
+#Banniere{
+	width:100%;
+	height:180px;
+	position: relative;
+	background-color:#3c6493;
+
+}
+
+
+#Logo {
+	float:right;
+	margin-right:-430px;
+	right:50%;
+	position:relative;
+
+}
+
+#Logo2 {
+	float:left;
+	left:0%;
+	position:relative;
+	margin-left:10px;
+}
+
+
+#searchbar{
+	position:relative; 
+	height:auto;
+	font-size:12px;
+ 	font-family: "Quicksand_Bold";
+ 	color : #3c6493;
+
+ 	width:100%;
+}
+
+#recherchons{
+	width:90%;
+
+}
+
+.formulaire               {
+	display:inline-block;
+}
+.formulaire .champ       {
+	width:300px; 
+	height:25px;	
+
+}
+.formulaire .bouton       { 
+	background-image: url(image/boutonsearch.png);
+	background-repeat: no-repeat;
+	width: 42px;
+	height: 42px;
+	padding: 0; 
+	border:none;
+}
+
+.formulaire .bouton:hover {
+	background-image: url(image/boutonsearchclic.png);
+}
+
+
+
+
+#menu{
+	margin-top:10px;
+	width : 100%;
+	height : 100px;
+	position : relative
+	}
+
+#menu ul {
+	float : left;
+	margin : auto;
+	left: 50%;
+	margin-left:-100px;
+	position: relative;
+
+}
+
+#menu ul li {
+	margin-left:20px;
+	float : left;
+	list-style-type : none;
+	position:relative;
+	left:-50%;
+
+ }
+
+ #menu ul li a {
+
+ 	text-decoration: none;
+ 	display: inline-block;
+ 	font-size: 25px;
+ 	height: 55px;
+ 	width: 187px;
+ 	padding-top: 20px;
+
+ 	text-align: center;
+ 	font-family: "Quicksand_Bold";
+ 	color : #8fccfb;
+ 	background:url(image/menucadre.png);
+ }
+
+ #menu ul li a:hover {
+ 	color:white;
+ 	background:url(image/menucadreclic.png);
+}
+
+
+#Bannieresecond {
+	width:100%;
+	height:2000px;
+	background-color:#96bfde;
+	margin-top:30px;
+	float:right;
+}
+
+
+@font-face {
+    font-family: 'Quicksand_Bold';
+    src: url(police/Quicksand_Bold.otf);
+}

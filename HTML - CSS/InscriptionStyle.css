@@ -1,0 +1,116 @@
+body{
+	margin:0;
+
+	background-color: #f1f6f9; 
+}
+#Banniere{
+	width:100%;
+	height:180px;
+	position: relative;
+	background-color:#3c6493;
+
+}
+#Logo {
+	float:right;
+	margin-right:-490px;
+	right:50%;
+	position:relative;
+}
+#Logo2 {
+	float:left;
+	left:0%;
+	position:relative;
+	margin-left:10px;
+}
+#menu{
+	margin-top:10px;
+	width : 100%;
+	height : 100px;
+	position : relative
+	}
+#menu ul {
+	float : left;
+	margin : auto;
+	left: 50%;
+	margin-left:-30px;
+	position: relative;
+}
+#menu ul li {
+	margin-left:20px;
+	float : left;
+	list-style-type : none;
+	position:relative;
+	left:-50%;
+
+ }
+
+ #menu ul li a {
+
+ 	text-decoration: none;
+ 	display: inline-block;
+ 	font-size: 25px;
+ 	height: 55px;
+ 	width: 187px;
+ 	padding-top: 20px;
+
+ 	text-align: center;
+ 	font-family: "Quicksand_Bold";
+ 	color : #f1f6f9;
+ 	background:url(image/menucadre.png);
+ }
+
+ #menu ul li a:hover {
+ 	color:white;
+ 	background:url(image/menucadreclic.png);
+}
+#Formulaire{
+	position:relative; 
+	float:none;
+	height:auto;
+	font-size:25px;
+ 	font-family: "Quicksand_Bold";
+ 	color : #3c6493;
+ 	width:50%;
+}
+.prenom{
+	position:relative; 
+	float:none;
+	height:auto;
+	font-size:20px;
+ 	font-family: "Quicksand_Bold";
+ 	width:15%;
+ 	margin-left:10px;
+}
+.nom{
+	position:relative; 
+	float:none;
+	height:auto;
+	font-size:20px;
+ 	font-family: "Quicksand_Bold";
+ 	width:15%;
+}
+.hom{
+	font-family: "Quicksand_Bold";
+	
+}
+.fem{
+	font-family: "Quicksand_Bold";
+	
+}
+#numero{
+	font-family: "Quicksand_Bold";
+
+}
+#adresse{
+	
+
+}
+#email{
+	font-family: "Quicksand_Bold";
+}
+#mdp{
+	font-family: "Quicksand_Bold";
+}
+#cmdp{
+	font-family: "Quicksand_Bold";
+}

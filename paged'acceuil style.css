@@ -1,0 +1,74 @@
+
+
+#Banniere{
+	width:100%;
+	height:150px;
+	position: relative;
+	background-color:#3c6493;
+
+}
+.Logo
+{
+	font-size: small;
+	float: left;
+	width: 750px;
+	height: 150px;
+}
+.ch
+{
+	font-size: small;
+	float: left;
+	width: 700px;
+	height: 80px;
+
+}
+body
+{
+	margin: 0; 
+	background-color: #f1f6f9;
+	background-image:url(fond.jpg);
+	background-repeat:no-repeat;
+	background-position: right bottom;
+}
+
+.connexion
+{
+	position: absolute;
+	top: 33px;
+	left: 780px;
+	font-size: large;
+	font-weight: normal;
+	font-family: Comic Sans MS;
+
+}
+.MDP{
+	position: absolute;
+	top: 31px;
+	left: 1030px;
+	font-size: large;
+	font-weight: normal;
+	font-family: Comic Sans MS;	
+}
+.feu
+{
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+	position: absolute;
+	top: 42px;
+	left: 1190px;
+}
+
+.carre{
+	width:200px;
+	height:200px;
+	background: black;
+}
+.Cosy
+{
+	float:left;
+	left:5%;
+	position:relative;
+	margin-left:1px;
+}
+

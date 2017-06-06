@@ -43,7 +43,24 @@ body{
 
 }
 
+.name {
+		border-radius: 10px;
+		width:200px;
+}
 
+.mdp{
+	border-radius: 10px;
+		width:200px;
+}
+
+.connecter {
+	border-radius: 10px;
+	width:200px;
+  	font: normal 15px 'Quicksand_Bold';
+  	background-color:#3c6493;
+  	color:#ffffff;
+
+}
 
 #Home {
 
@@ -126,56 +143,7 @@ body{
   width:80%;
 }
 
-#menu{
 
-	width : 100%;
-	height : 100px;
-	position : relative
-	}
-
-#menu ul {
-	float : left;
-	margin : auto;
-	left: 40%;
-
-	position: relative;
-
-}
-
-#menu ul li {
-	margin-left:20px;
-	float : left;
-	list-style-type : none;
-	position:relative;
-	left:-30%;
-
- }
-
- #menu ul li a {
-
- 	text-decoration: none;
- 	display: inline-block;
- 	font-size: 25px;
- 	height: 65px;
- 	width: 187px;
- 	padding-top: 10px;
-
- 	text-align: center;
- 	font-family: "Quicksand_Bold";
- 	color : #f1f6f9;
- 	background:url(image/menucadre.png);
- }
-
- #menu ul li a:hover {
- 	color:white;
- 	background:url(image/menucadreclic.png);
-}
-
-#menu ul li a:active {
-	background:url(image/menucadrepush.png);
-
-
-}
 
 #menudeco{
 
@@ -189,7 +157,7 @@ body{
   float : left;
   margin : auto;
   left: 41%;
-  padding-top:150px;
+  padding-top:70px;
   position: relative;
 
 }
@@ -229,7 +197,21 @@ body{
 
 }
 
+#menudeco ul li p a { 
+	background:url(image/deconnexion.png);
+ 	display: inline-block;
+ 	height: 73px;
+  	width: 80px;
+  	margin-left:90px;
 
+ }
+
+#menudeco ul li p a:hover { 
+	background:url(image/deconnexionhover.png);
+
+
+
+}
 
 #Casechambre ul {
 	float : left;
@@ -369,15 +351,21 @@ body{
 
 
 #bannieredash {
-	width:80%;
+	width:60%;
 	height:auto;
-	background-color:#96bfde;
-	margin-top:30px;		
-	float:right;
-	right:50%;
-	margin-right:150px;
+	background-color:#3c6493;  
 	
-}
+	padding:5px;
+	float:left;
+	margin-right:auto;
+	margin-left:300px;
+
+	margin-right:150px;
+	border-radius: 10px;
+	color: white;
+		text-align: center;
+
+	}
 
 
 
@@ -394,23 +382,16 @@ body{
 }	
 	
 #footer a {
-	float:left;
+
 	margin-top:10px;
 	margin-left:40%;
-
-
-}
-
-#text {
-
-margin-top:100%;
-
-}
+	}
 
 #piedpage {
 float:right;
 margin-top: 25px;
-
+float:left;
+margin-left:150px;
 width:80%;
 
 text-align: center;
@@ -420,38 +401,211 @@ font-family: "Quicksand_Bold";
 background-color: #3c6493;  
 }
 
-/* Bouton Retour */
 
-input.boutonretour{
-  position: fixed;
-  font-size: 16px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  padding: 8px;
-  padding-left: 0px;
-  left:0;
-  margin-top: 30px;
-  text-shadow: none;
-  background: #FFFFFF;
-  box-shadow: none;
-  border: 1px solid #447FB3;
-  border-left: none;
-  color: #447FB3;
-  -webkit-transition-duration: 0.6s;
-  transition-duration: 0.6s;
+
+#contenu {
+	text-align: center;
+	margin-top:500px;
+  font-family: 'Quicksand_Bold';
+  width:500px;
+  margin-left:150px;
+
 }
 
-input.boutonretour:hover{
-  padding-left: 15px;
-  cursor: pointer;
-  background: #447FB3;
+#contenuco{
+
+
+}
+
+
+#contenu form
+{
+		margin-top:500px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#contenu li
+{
+  margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+
+
+
+/*le CSS du javascript de la vue générale
+*/
+
+.basic-grey a, #contenu a {
+  text-decoration: none;
+  font-family: "Quicksand_Bold";
+}
+
+.basic-grey a:link, #contenu a:link{
+  color: black;
+}
+
+
+
+.basic-grey a:visited, #contenu a:visited{
+  color: black;
+}
+
+#contenu iframe {
+  border-radius: 10px;
+}
+
+
+
+
+
+#utilisateur {
+	margin-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 45em;
+    background-color:#3c6493;  
+    padding: 25px 15px 25px 10px;
+    font: 14px 'Quicksand_Bold';
+    color: white;
+    border:1px solid #E4E4E4;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.boutonmodifier {
+	    border-radius: 10px;
+    font: 14px 'Quicksand_Bold';
+    color:white;
+    background-color:#3c6493;  
+    width:100px;
+    height:30px;
+
+}
+
+
+.menu-vertical {
+
+	margin-top:250px;
+
+  	list-style: none;
+
+
+  	background: #3c6493; 
+	margin-left:500px;
+	margin-right:500px;
+  	border-radius: 10px;
+
+}
+
+
+
+.mv-item a {
+
+  display: block;
+}
+
+
+
+.mv-item a {
+
+  font-family: "Quicksand_Bold";
+  font-size: 20px;
+
+  padding: 8px 20px; 
   color: white;
+
+  text-decoration: none; 
+  border-radius: 10px;
+
+
 }
 
-.basic-grey.connecto input[type="submit"]:hover {
+
+.mv-item a:hover,
+.mv-item a:focus {
   background: #447FB3;
-  color: white;
+
+
 }
+
+
+
+.fenetre{
+  padding:10px;
+  width: 450px;
+  position: relative;
+align-items: center;
+
+}	
+
+
+
+
+
+.inscription {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:300px;
+    max-width: 900px;
+    background: #3c6493; 
+    padding: 20px 15px 20px 5px;
+    font: 20px "Quicksand_Bold";
+    color: #ffffff;
+
+
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.inscription input {
+  border-radius: 5px;
+  font: 20px "Quicksand_Bold";;
+}
+
+
+#bienvenue{
+  font: 30px "Quicksand_Bold";
+
+}
+
+.objet_nom{
+
+  display: flex;
+  width:auto;
+  height:auto;
+}
+
+#bouton {
+background: #3c6493;  
+height:auto;
+
+color: white;
+border-radius: 10px;
+font-family: "Quicksand_Bold";
+
+font-size:30px;
+margin-left: auto;
+margin-right: auto;
+
+
+margin-top: 5%;
+
+}
+
+
 
 
 @font-face {
